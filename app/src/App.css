@@ -1,0 +1,51 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+.input_group ::-webkit-input-placeholder 
+{
+  text-align: center;
+}
+.input_group input
+{
+  text-align: center;
+}
+.App {
+}
+.listItem {
+  text-align: center;
+}
+.list-group {
+
+  display: table;
+  width: 500px;
+  margin: 0 auto;
+}
+.list-item button {
+  margin-top: 5px;
+  float: right;
+  border-radius: 100%;
+}
+.list-item p {
+  font-family: 'Courier New', Courier, monospace;
+  padding:12px 10px 0 0;
+  width: 200%;
+  text-align: center;
+}
+.detail-container{
+  text-align: center
+}
+.detail-text{
+  display: inline-block;
+}
+.header{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    color: red;
+}
+.empty-list{
+  opacity: 0.7;
+  font-size: 100px;
+  text-align: center;
+  color: red;
+}
